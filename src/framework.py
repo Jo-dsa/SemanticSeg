@@ -66,7 +66,7 @@ class Context(object):
         self.batch_size = None
         self.DEVICE = "cpu"
 
-    def fit(self, img_dir, mask_dir, img_size, mask_size, device, validation_split=.3, shuffle=True):
+    def fit(self, img_dir, mask_dir, img_size, mask_size, device, validation_split=.3, shuffle_data=True):
         """
         Prepare data for training
         """
@@ -84,7 +84,7 @@ class Context(object):
         # extract similar names in both directories
         names = sorted(list(set(img_names.keys()).intersection(mask_names.keys())))
         
-        if shuffle:
+        if shuffle_data:
             np.random.shuffle(names)
 
         # split train/validation
