@@ -31,7 +31,7 @@ if __name__ == "__main__":
         mask_dir=masks_path,
         img_size=256,
         mask_size=256,
-        shuffle=False,
+        shuffle_data=False,
         device=DEVICE,
     )
     ctx.set(nb_epochs=100, batch_size=16)
