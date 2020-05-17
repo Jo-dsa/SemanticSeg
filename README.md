@@ -19,7 +19,8 @@ Framework: Pytorch
 
 ## Results
 
-We can observe the probability map for each channel. It allows us to estimate how much a pixel belongs to a specific part of the face. <br />
+We can observe the probability map for each channel. <br />
+It allows us to estimate how much a pixel belongs to a specific part of the face. <br />
 <img src="https://dl.dropboxusercontent.com/s/z6loxo2ttt9hnbl/heatmap.png?dl=0" height="300">
 
 Segmentation sample: <br />
