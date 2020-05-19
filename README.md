@@ -50,7 +50,7 @@ model = torch.load("my_model.pt", map_location=torch.device('cpu'))
 # create context
 ctx = Context()
 # predict
-yhat = ctx.predict(model, img_name, plot=True)
+yhat = ctx.predict(model, img, plot=True)
 ```
 
 ## References
