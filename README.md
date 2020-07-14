@@ -1,7 +1,7 @@
 
-# Semantic segmentation
+# Face Parsing
 
-Implementation of a one-stage face/head segmentation model using Unet architecture.<br/>
+Implementation of a one-stage Face Parsing model using Unet architecture.<br/>
 The face is divided into 10 classes (background, eyes, nose, lips, ear, hair, teeth, eyebrows, general face, beard).<br/>
 This results in regions of interest that are difficult to segment. We address this problem by implementing different loss functions:<br/>
 
